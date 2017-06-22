@@ -1,0 +1,68 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/picture.css">
+
+  <title>Contact</title>
+</head>
+
+<body>
+  <section>
+    <div class="tabs">
+      <h1>Austin Wheelwright<h1>
+      <h2 class="title">Photography<h2>
+      <div class="contact">
+        <p>Tap to Call Us</p>
+      </div>
+    </div>
+    <div>
+      <ul>
+        <a href="./index.html"><li>Home</li></a>
+        <a href="./portfolio.html"><li>Portfolio</li></a>
+        <a href="./contact.html"><li>Contact</li></a>
+      </ul>
+    </div>
+    <div>
+      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
+        <img  class="tile" src="./jpg/one.jpg" alt="water fall"/>
+      </button>
+
+      <button onclick="document.getElementById('id02').style.display='block'">
+        <img  class="tile" src="./jpg/rose.jpg" alt="rose">
+      </button>
+    </div>
+
+    </button>
+
+  </section>
+
+  <div id="id01" class="modal">
+    <div class="modal-content animate" action="/action_page.php">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      </div>
+      <div class="container">
+        <img src="./jpg/one.jpg" alt="water fall"/>
+      </div>
+    </div>
+  </div>
+
+  <div id="id02" class="modal">
+    <div class="modal-content animate" action="/action_page.php">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+      </div>
+      <div class="container">
+        <img src="./jpg/rose.jpg" alt="rose">
+      </div>
+    </div>
+  </div>
+
+
+
+</html>
